@@ -1,0 +1,17 @@
+.like-container{
+    @include for-normal-layout{
+        grid-column: 2;
+        justify-content: center;
+    }
+    .like{
+        max-width: rem(30px);
+        cursor: pointer;
+    }
+}
+
+.ratio-square{
+    max-width: rem(100px);
+    @include for-normal-layout{
+        grid-row: 1/-1;
+    }
+}

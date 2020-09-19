@@ -1,0 +1,13 @@
+.main-container{
+    max-width: $wide-breakpoint;
+    margin: 0 auto;
+    @include for-wide-layout {
+        max-width: $normal-breakpoint;
+    }
+    @include for-normal-layout {
+        max-width: $narrow-breakpoint;
+    }
+    @include for-narrow-layout {
+        max-width: $mobile-breakpoint;
+    }
+}

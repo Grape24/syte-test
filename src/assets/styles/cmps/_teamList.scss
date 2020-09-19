@@ -1,0 +1,18 @@
+.team-container{
+    background-color: white;
+    margin: rem(20px) 0;
+    padding: rem(20px);
+    border-radius: 3px;
+    box-shadow: 2px 0px 12px 6px rgba(222,231,241,1);
+    grid-template-columns: repeat(4, 1fr);
+    @include for-normal-layout{
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        max-width: 50%;
+        margin: 0 auto;
+        margin-top:rem(20px);
+        div{
+            justify-content: center;
+        }
+    }
+}
