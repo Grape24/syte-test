@@ -1,6 +1,6 @@
 import history from '../history';
 import Axios from 'axios';
-import {config} from '../ignore';
+import {config} from '../ignore/ignore';
 
 const BASE_URL = 'https://api-football-v1.p.rapidapi.com/v2/'
 
