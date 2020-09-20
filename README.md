@@ -1,3 +1,6 @@
+NOTE! If you want to run this project you will have to insert your own api key on the HttpService file :)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
